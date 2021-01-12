@@ -13,7 +13,7 @@ https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognit
 ## Quirks of the application
 The application currently detects the faces that are saved in the directory provided, and marks their attendance in a csv file with time and date of detection. 
 
-##Future expansions
+## Future expansions
 
 * A GUI can be made to make the process of adding individuals to the dataset
 * A face mask detection method can also be used to detect if the individuals are following protocol. 
@@ -21,10 +21,10 @@ The application currently detects the faces that are saved in the directory prov
 ---
 
 ### Libraries used
-numpy as np
-cv2 as cv
-dlib
-cmake
-face_recognition
-os
-datetime 
+* numpy as np
+* cv2 as cv
+* dlib
+* cmake
+* face_recognition
+* os
+* datetime 
